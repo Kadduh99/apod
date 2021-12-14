@@ -1,4 +1,22 @@
 body {
-  background-image: linear-gradient(to right, #ff9bb4, #ff507b, #ff7a2d);
+  background-image: linear-gradient(to right, #050138, #0c012a, #000000);
+}
+.texto {
+  color: aliceblue;
+  text-align: center;
+}
+
+#data{
+  display: flex;
+  justify-content: center;
+}
+
+#info-apod {
+  margin-top: 50px;
+  margin-bottom: 5px;
+  text-align: center;
+  border-radius: 50px;
+  color: white;
+  font-size: 25px;
 }
 
