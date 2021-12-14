@@ -6,7 +6,7 @@ function getApod(){
 
         success: function (response){
 
-            var divExplanation = $('<img src="' +response.url+'"> <p>"'+response.explanation+'"</p>')
+            var divExplanation = $('<img src="'+response.url+'"> <p>"'+response.explanation+'"</p>')
 
             $("#info-apod").html(divExplanation);
         }
