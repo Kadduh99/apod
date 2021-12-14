@@ -2,9 +2,6 @@ body {
   background-image: linear-gradient(to right, #050138, #0c012a, #000000);
 }
 
-h1 {
-  
-}
 .texto {
   
   font-family: 'Open Sans Condensed', sans-serif;
@@ -15,6 +12,15 @@ h1 {
 #data{
   display: flex;
   justify-content: center;
+  
+}
+ 
+img {
+  animation-delay: 5s;
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+  border-radius: 25px;
 }
 
 #info-apod {
