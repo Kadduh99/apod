@@ -1,7 +1,13 @@
 body {
   background-image: linear-gradient(to right, #050138, #0c012a, #000000);
 }
+
+h1 {
+  
+}
 .texto {
+  
+  font-family: 'Open Sans Condensed', sans-serif;
   color: aliceblue;
   text-align: center;
 }
